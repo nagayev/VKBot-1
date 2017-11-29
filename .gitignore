@@ -1,0 +1,16 @@
+.idea/
+__pycache__/
+VKBotEncripter.py
+VKBotInstaller.py
+VKBotTable.py
+.VKBotToken.py
+exportToHTML/
+_config.yml
+.logs/
+VKBotAudioMessage.py
+speakerKey.py
+VKBotToken.txt
+vk_config.v2.json
+*.log
+.testDir/
+.directory

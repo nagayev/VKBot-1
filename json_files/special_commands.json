@@ -1,0 +1,8 @@
+{
+  "@":
+  {
+    "@!": "sendBack(PARAM, message)",
+    "@E": "eval(PARAM)",
+    "@F": "sendBackFwd(**PARAM)"
+  }
+}
