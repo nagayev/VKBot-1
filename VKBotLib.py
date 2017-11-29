@@ -73,7 +73,7 @@ def sendMe(text, noBot=False):
     api.messages.send(**{'domain': 'jag_k58', 'message': sayBot(text, noBot)})
 
 
-def sendBack(text, message, noBot=False, attachment=''):
+def sendBack(text, message, noBot=False, attachment='', fwd=[]):
     if message['title'] == '' and str(message['uid'])[0] == '-':
         api.messages.send(**{'peer_id': message['uid'], 'message': sayBot(text, noBot), 'attachment': attachment})
     elif message['title'] == '':
